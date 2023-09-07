@@ -21,3 +21,13 @@ let b=arr1.reduce((num1,num2)=>
 
 console.log(b);
 
+//filter method
+let arr =[10,20,30,40]
+
+let a=arr.filter((value)=>
+ {
+     return value<30 ;           
+                 
+ })
+console.log(a);
+
