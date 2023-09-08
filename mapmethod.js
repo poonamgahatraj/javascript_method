@@ -31,3 +31,13 @@ let a=arr.filter((value)=>
  })
 console.log(a);
 
+//forEach function
+
+let fruits=["apple","mango","banana"]
+
+fruits.forEach(function(value,index){
+
+console.log(index+":"+" "+ value)
+})
+
+
