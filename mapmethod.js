@@ -40,4 +40,12 @@ fruits.forEach(function(value,index){
 console.log(index+":"+" "+ value)
 })
 
+//example2
+
+let num=[10,20,30]
+
+num.forEach(function(value,index,array){
+  console.log(value,index,array)
+})
+
 
